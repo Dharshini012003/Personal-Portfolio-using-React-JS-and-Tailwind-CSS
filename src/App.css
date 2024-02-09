@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-3;
+}
+
+.bg-primary {
+  background: rgb(85 81 227);
+}
+
+.bg-secondary{
+  background: #2b2d77;
+}
+
+.mobile-nav{
+  @apply fixed top-10 bg-gray-800 w-full ;
+}
+
+.mobile-nav ul li{
+  @apply w-full h-full text-center border-b-2  bg-gray-800 ;
+}
+
+.project-desc {
+  @apply relative left-0 right-0 bottom-0 top-0 bg-secondary pb-3;
+}
+
+.btn {
+  @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+.slick-slide > div{
+   margin:0 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
